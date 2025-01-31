@@ -1,0 +1,32 @@
+/*
+  Juisee is lisenced under the SIL Open Font License 1.1
+  https://github.com/yuru7/juisee/blob/main/LICENSE
+*/
+
+@font-face {
+  font-family: 'Juisee';
+  src: url('./Juisee-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Juisee';
+  src: url('./Juisee-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Juisee';
+  src: url('./Juisee-RegularItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Juisee';
+  src: url('./Juisee-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}

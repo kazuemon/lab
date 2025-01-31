@@ -1,0 +1,37 @@
+---
+title: トップページ
+description: 「かずえもんらぼ」はかずえもんの個人サークルで、主に活動を通じて得た「配信オペレーション」や「デザイン」などの知識・ノウハウを共有していくことを目的に活動しています。
+template: splash
+hero:
+  title: 'Hello, world!'
+  tagline: 「かずえもんらぼ」はかずえもんの個人サークルで、主に活動を通じて得た「配信オペレーション」や「デザイン」などの知識・ノウハウを共有していくことを目的に活動しています。
+  image:
+    file: ../../assets/brand/logo_shadow.png
+  actions:
+    - text: このサイトの歩き方
+      link: /about/introduction/
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="活動目的" icon="document">
+    - 専門知識が必要とされる分野に興味を持った人へ、その分野に足を踏み入れるきっかけ（最初に必要な知識）を提供する
+    - 経験上のハマりどころなどの注意点を共有し、スムーズに取り組めるようにする
+    - 実際に技術を用いてモノを作り提供する
+  </Card>
+	<Card title="主な活動分野" icon="rocket">
+		- 配信制作 / オペレーション
+    - デザイン
+    - 広報
+    - プログラミング
+    - 企画
+	</Card>
+	<Card title="免責事項" icon="warning">
+		本記事は実際の経験等に基づいておりますが、必ずしも正確な情報ではない可能性があります。内容に誤りなどがある場合は、お手数ですがご指摘いただけると幸いです。
+	</Card>
+	<Card title="お問い合わせ" icon="email">
+		執筆内容へのご指摘やお仕事のご依頼などは Discord `@kazuemon` までお願いします。
+	</Card>
+</CardGrid>

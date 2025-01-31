@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap');
+
+:root {
+  --sl-font: 'M PLUS 2', sans-serif;
+  --link-preview-corners: .5rem;
+  --link-preview-padding-inline: .85rem;
+  --link-preview-padding-block: .85rem;
+}
+
+.link-preview {
+  border: 1px solid lightgray;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
