@@ -14,6 +14,10 @@ export default defineConfig({
 				src: "./src/assets/brand/icon_shadow.png",
 				replacesTitle: true,
 			},
+			editLink: {
+        baseUrl: 'https://github.com/kazuemon/lab/edit/main/',
+      },
+			lastUpdated: true,
 			head: [
 				{
 					tag: "script",
